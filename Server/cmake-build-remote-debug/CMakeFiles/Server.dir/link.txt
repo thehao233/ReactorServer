@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Server.dir/main.cpp.o -o /root/projects/ddz-net/bin/Server   -L/root/projects/ddz-net/http  -L/root/projects/ddz-net/reactor  -L/root/projects/ddz-net/tcp  -L/root/projects/ddz-net/thread  -L/root/projects/ddz-net/common 

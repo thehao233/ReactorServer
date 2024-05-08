@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(thread)
+set(CMAKE_CXX_STANDARD 17)
+
+# 取出当前目录中所有的源文件, 存储到一个变量中
+aux_source_directory(./ SRC)
+# 把源文件制作成静态库文件
+add_library(thread STATIC ${SRC})
+
+target_link_libraries(thread pthread)

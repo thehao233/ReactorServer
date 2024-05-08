@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\http\;CMake Files\reactor\;CMake Files\tcp\;CMake Files\thread\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="/root/projects/ddz-net/bin/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="/root/projects/ddz-net/bin/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 reactor"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor/fast">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 reactor/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="/root/projects/ddz-net/cmake-build-remote-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/projects/ddz-net/cmake-build-remote-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/projects/ddz-net/common"/>
+					<Add directory="/root/projects/ddz-net/http"/>
+					<Add directory="/root/projects/ddz-net/reactor"/>
+					<Add directory="/root/projects/ddz-net/tcp"/>
+					<Add directory="/root/projects/ddz-net/thread"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/projects/ddz-net/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/projects/ddz-net/common/Buffer.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/common/Buffer.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/common/Channel.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/common/Channel.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/http/HttpRequest.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/http/HttpRequest.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/http/HttpResponse.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/http/HttpResponse.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/Dispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/Dispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/EpollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/EpollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/EventLoop.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/EventLoop.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/PollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/PollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/SelectDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/SelectDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/tcp/TcpConnection.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/tcp/TcpConnection.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/tcp/TcpServer.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/tcp/TcpServer.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/thread/ThreadPool.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/thread/ThreadPool.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/thread/WorkerThread.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/thread/WorkerThread.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\http\"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/reactor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\reactor\"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcp\"/>
+		</Unit>
+		<Unit filename="/root/projects/ddz-net/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

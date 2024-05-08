@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaaa.a CMakeFiles/aaa.dir/TcpConnection.cpp.o CMakeFiles/aaa.dir/TcpServer.cpp.o
+/usr/bin/ranlib libaaa.a

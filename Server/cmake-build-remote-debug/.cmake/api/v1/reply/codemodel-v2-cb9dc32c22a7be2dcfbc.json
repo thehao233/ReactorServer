@@ -1,0 +1,246 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "http",
+					"jsonFile" : "directory-http-Debug-33cc5cc33a560f8f299b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "http",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "reactor",
+					"jsonFile" : "directory-reactor-Debug-a039b829aea25f2ed6f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "reactor",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tcp",
+					"jsonFile" : "directory-tcp-Debug-53f7df7fc7f369c653ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "tcp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "thread",
+					"jsonFile" : "directory-thread-Debug-3bc77d40aa058aa12604.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "thread",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Server",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "http",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "reactor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "aaa",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Server-Debug-6b769f78ccf07742925e.json",
+					"name" : "Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "aaa::@8966b6d2f8df3a1515e1",
+					"jsonFile" : "target-aaa-Debug-f059f42a87e49043679d.json",
+					"name" : "aaa",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-8364f7a32885a4d4447e.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "http::@bd0a5d6c0bd9e6f494f8",
+					"jsonFile" : "target-http-Debug-75312f8f1df71e964b9f.json",
+					"name" : "http",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "reactor::@9b10b1f55575ced20a91",
+					"jsonFile" : "target-reactor-Debug-e4f831b82cd05409149d.json",
+					"name" : "reactor",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "thread::@1994991b6c1bd8685afc",
+					"jsonFile" : "target-thread-Debug-e4ea573e46f35340e497.json",
+					"name" : "thread",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/projects/ddz-net/cmake-build-remote-debug",
+		"source" : "/root/projects/ddz-net"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
